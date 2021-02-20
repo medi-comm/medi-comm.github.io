@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow:hidden;
+ }
+ .logo{
+    font-size: 40px!important;
+    padding-left: 30px;
+  font-family: 'Lora', serif;
+    padding-left: 30px;
+  font-family: 'Lora', serif;
+ }
+ .logo a{
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+ }
+ li,li a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(241, 240, 240);
+    font-family: 'Roboto', sans-serif;
+ }
+ .nav-links li a {
+    display: block;
+    padding: 1rem;
+ }
+ .nav-links li{
+    font-size: 20px;
+ }
+ .nav-links ul{
+    list-style: none;
+    display: flex;
+ }
+  
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color:#3162bd;
+    overflow: hidden;
+    padding: 13px;
+ }
+ .header{
+    padding-bottom: 5px;
+ }
+ .nav-links a:hover{
+    color:rgb(221, 180, 92);
+    transition: ease-in .2s;
+ }
+ .toggle-button{
+    position: absolute;
+    top:.75rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height:21px ;
+ }
+ .toggle-button .bar{
+    height:3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+ }
+ 
+@media (max-width:800px){
+    .toggle-button{
+        display: flex;
+    }
+    .nav-links{
+        width: 100%;
+        display: none;
+    }
+    nav{
+        padding-bottom: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .nav-links ul{
+        flex-direction: column
+    }
+    .nav-links li{
+        text-align: center;
+    }
+    .nav-links li a{
+        padding: .5rem 1rem;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .block-sections div{
+        display: block;
+      width: 30%;
+    }
+ }
+ 
+ .man{
+    background-color: rgb(11, 20, 51);
+    height:87vh;
+    width: 100%;
+    overflow: hidden; 
+}
+.man img{
+    width: 100%;
+    height: auto;
+    opacity: .5;
+}
+.intro {
+    color: black;
+    background-color: rgba(111, 158, 211, 0.9);
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    overflow: hidden;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.intro h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    font-family: 'Lora', serif;
+}
+.intro h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    padding: 10px;
+}
+hr{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+    border:1px solid #e7eeeb;
+}

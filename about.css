@@ -1,0 +1,123 @@
+/* START OF COPIED CODE FROM HOME PAGE*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow:hidden;
+ }
+ .logo{
+    font-size: 40px!important;
+    padding-left: 30px;
+  font-family: 'Lora', serif;
+    padding-left: 30px;
+  font-family: 'Lora', serif;
+ }
+ .logo a{
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+ }
+ li,li a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(241, 240, 240);
+    font-family: 'Roboto', sans-serif;
+ }
+ .nav-links li a {
+    display: block;
+    padding: 1rem;
+ }
+ .nav-links li{
+    font-size: 20px;
+ }
+ .nav-links ul{
+    list-style: none;
+    display: flex;
+ }
+  
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color:#3162bd;
+    overflow: hidden;
+    padding: 13px;
+ }
+ .header{
+    padding-bottom: 5px;
+ }
+ .nav-links a:hover{
+    color:rgb(221, 180, 92);
+    transition: ease-in .2s;
+ }
+ .toggle-button{
+    position: absolute;
+    top:.75rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height:21px ;
+ }
+ .toggle-button .bar{
+    height:3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+ }
+ @media (max-width:800px){
+    .toggle-button{
+        display: flex;
+    }
+    .nav-links{
+        width: 100%;
+        display: none;
+    }
+    nav{
+        padding-bottom: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .nav-links ul{
+        flex-direction: column
+    }
+    .nav-links li{
+        text-align: center;
+    }
+    .nav-links li a{
+        padding: .5rem 1rem;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .block-sections div{
+        display: block;
+      width: 30%;
+    }
+ }
+ /* END OF COPIED  CODE FROM HOME PAGE*/
+
+ .statements h1{
+   color:black;
+   padding-top: 3rem;
+   text-align:center;
+   font-family: 'Lora', serif;
+}
+.statements h2{
+   color: black;
+   padding-top: .5rem;
+   text-align: center;
+   font-family: 'Lora', serif;
+}
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: .5rem;
+   width: 47%;
+   height: auto;
+}
