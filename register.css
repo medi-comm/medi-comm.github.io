@@ -1,4 +1,3 @@
-
 /* START OF COPIED CODE FROM HOME PAGE*/
  
 *{
@@ -103,77 +102,59 @@
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
 
-.left {
-    position: relative;
-    width: 55%;
-    height: auto;
-    float: left;
+ 
+ .registerform{
     text-align: center;
-    padding-top: 4rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-top: 3rem;
 }
-.right {
-    position: relative;
-    width: 45%;
-    height: auto;
-    float: left;
-    text-align: center;
-    padding: 5rem;
+.registerform h1{
+   color: black;
+   font-family: 'Lora', serif;
+   margin-bottom: 1rem;
 }
-img{
-    width: 100%;
-    height: auto;
-    float: right;
-}
-.left h1{
-    color: black;
-    font-family: 'Lora', serif;
-    margin-bottom: 1rem;
-}
-.left h2{
-    color: black;
-    font-family: 'Lora', serif;
-    margin-bottom: 2rem;
+.registerform h2{
+   color: black;
+   font-family: 'Lora', serif;
+   margin-bottom: 2rem;
 }
 
 .form{
-    width: 80%;
-    height: auto;
-    font-family: 'Lora', serif;
-    background: #98bfff;   
-    padding: 1rem; 
-    margin-left: auto;
-    margin-right: auto;
+   width: 60%;
+   height: auto;
+   font-family: 'Lora', serif;
+   background: #98bfff;   
+   padding: 1rem; 
+   margin-left: auto;
+   margin-right: auto;
 }
 .form h1{
-    color: white;
-    text-align: center;
-    background: #5a7292; 
-    padding: 1rem 0;
-    margin: -1rem -1rem 1rem -1rem;
+   color: white;
+   text-align: center;
+   background: #5a7292; 
+   padding: 1rem 0;
+   margin: -1rem -1rem 1rem -1rem;
 }
 .form input[type="text"], 
 .form input[type="email"],
 .form textarea
 {
-    width: 100%;
-    background: white;
-    margin-bottom: 1rem;
-    border: 0.1rem solid #6b7070;
-    padding: 1rem;
-    color: #6b7070;
-    font-family: 'Lora', serif; 
+   width: 100%;
+   background: white;
+   margin-bottom: 1rem;
+   border: 0.1rem solid #6b7070;
+   padding: 1rem;
+   color: #6b7070;
+   font-family: 'Lora', serif; 
 }
 .form input[type="submit"] {
-    width: 100%;
-    background: #5a7292;
-    color: white;
-    padding: 1rem;
-    font-family: 'Lora', serif;
-    font-size: 1.2rem;
+   width: 100%;
+   background: #5a7292;
+   color: white;
+   padding: 1rem;
+   font-family: 'Lora', serif;
+   font-size: 1.2rem;
 }
 .form input[type="submit"]:hover {
-    background: #88a2c7;
-    transition: ease-in .1s;
+   background: #88a2c7;
+   transition: ease-in .1s;
 }
