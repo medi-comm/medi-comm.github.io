@@ -102,7 +102,7 @@
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
 
-tml, body{
+html, body{
     overflow-y: visible;
 }
  .signupform{
