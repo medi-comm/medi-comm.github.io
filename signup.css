@@ -102,6 +102,9 @@
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
 
+tml, body{
+    overflow-y: visible;
+}
  .signupform{
      text-align: center;
      padding-top: 3rem;

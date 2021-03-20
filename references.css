@@ -102,6 +102,9 @@
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
 
+html, body{
+   overflow-y: visible;
+}
 .links{
     margin-left: 5rem;
     margin-top: 2rem;

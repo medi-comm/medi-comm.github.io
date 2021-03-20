@@ -102,7 +102,9 @@
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
 
- 
+html, body{
+   overflow-y: visible;
+}
  .registerform{
     text-align: center;
     padding-top: 3rem;

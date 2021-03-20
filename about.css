@@ -101,6 +101,9 @@
  }
  /* END OF COPIED  CODE FROM HOME PAGE*/
 
+html, body{
+   overflow-y: visible;
+}
  .statements h1{
    color:black;
    padding-top: 3rem;

@@ -103,6 +103,9 @@
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
 
+html, body{
+    overflow-y: visible;
+}
 .left {
     position: relative;
     width: 55%;
