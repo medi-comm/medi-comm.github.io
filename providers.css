@@ -102,60 +102,56 @@
     }
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
-
- .top h1{
-    color:black;
-    padding-top: 4rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    text-align: center;
-    font-family: 'Lora', serif;
- }
- .left {
-     position: relative;
-     float: left;
-     width: 60%;
-     height: auto;
-     bottom: 0;
-     left: 0;
-     text-align: center;
- }
- .left h1{
-     color: black;
-     padding-top: 6rem;
-     padding-left: 7rem;
-     padding-right: 7rem;
-     text-align: center;
-     font-family: 'Lora', serif;
- }
-.right {
+ 
+.left{
     position: relative;
+    width: 38%;
+    height: auto;
+    float: left;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.left p, #subheading{
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+#register{
+    font-size: 1.5em;
+    padding-top: 2rem;
+} 
+.right{
+    position: relative;
+    width: 62%;
+    height: auto;
     float: left;
     text-align: center;
-    width: 40%;
-    height: auto;
 }
-img {
-    width: 65%;
+.right img{
+    width: 100%;
     height: auto;
-    margin-top: 8rem;
+    overflow: hidden;
 }
-.btn {
+.btnregister{
     cursor: pointer;
     background-color: #5096e6;
     border-color: black;
     border-width: 0.1em;
     border-radius: .4em;
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Lora', serif;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: white;
 }
-.register:hover {
+.btnregister:hover {
     background-color: #98bfed;
     transition: ease-in .2s;
 }

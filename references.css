@@ -1,4 +1,3 @@
- 
 /* START OF COPIED CODE FROM HOME PAGE*/
  
 *{
@@ -102,72 +101,13 @@
     }
  }
  /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
- 
- .hook{
-    width:100%;
-    height: 100%;
-    background-color: #e7eeeb;
- }
- .hook h1{
-    color:black;
-    padding-top: 90px;
-    text-align:center;
+
+.links{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.links h1{
     font-family: 'Lora', serif;
- }
- .hook h2{
-    color: black;
-    padding-top: 40px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
- }
-  
- .block-sections{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
- }
- .block-sections h2{
- background-color:rgb(173, 116, 9);
- padding-top: 0px;
- }
- .block-sections p{
-    padding-top: 15%;
- }
- .block-sections div{
-    display: inline-block;
-  width: 30%;
-  height: 350px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
- }
- .block-sections .b1{
-    margin: 20px;
-    background:rgba(224, 209, 180, 0.952);
-    border-radius: 20px;
- }
- .block-sections .b2{
-    margin: 20px;
-    background:rgba(224, 209, 180, 0.952);
-    border-radius: 20px;
- }
- .block-sections .b3{
-    margin: 20px;
-    background:rgba(224, 209, 180, 0.952);
-    border-radius: 20px;
-   
- }
- .b1 a:hover{
-    color:rgb(230, 135, 27);
-    transition: ease-in .2s;
- }
- .b1 a{
-    color: black;
- }
- .block-sections h2{
-    color: white;
- }
+    font-size: 2em;
+    margin-top: 2rem;
+}
