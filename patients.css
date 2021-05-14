@@ -1,13 +1,11 @@
-
-/* START OF COPIED CODE FROM HOME PAGE*/
- 
+/* NAVBAR */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     overflow:hidden;
- }
- .logo{
+}
+.logo{
     font-size: 40px!important;
     padding-left: 30px;
   font-family: 'Lora', serif;
@@ -18,6 +16,7 @@
     text-decoration: none;
     color: rgb(241, 240, 240);
  }
+
  li,li a{
     text-decoration: none;
     align-items: center;
@@ -25,67 +24,64 @@
     color: rgb(241, 240, 240);
     font-family: 'Roboto', sans-serif;
  }
- .nav-links li a {
-    display: block;
-    padding: 1rem;
- }
- .nav-links li{
-    font-size: 20px;
- }
- .nav-links ul{
-    list-style: none;
+.nav-links ul{
+    margin: 0;
+    padding: 0;
     display: flex;
- }
-  
- nav{
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+    padding: 1rem;
+    display: block;
+}
+.nav-links a:hover{
+    color:rgb(221, 180, 92);
+    transition: ease-in .2s; 
+}
+.nav{
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
     background-color:#3162bd;
-    overflow: hidden;
     padding: 13px;
- }
- .header{
-    padding-bottom: 5px;
- }
- .nav-links a:hover{
-    color:rgb(221, 180, 92);
-    transition: ease-in .2s;
- }
- .toggle-button{
+}
+/*hamburger menu formatting*/
+.toggle-button{
     position: absolute;
     top:.75rem;
     right: 1rem;
-    display:none;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height:21px ;
- }
- .toggle-button .bar{
-    height:3px;
+    width: 31px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(241, 240, 240);
     border-radius: 10px;
- }
- @media (max-width:800px){
+}
+/*media query*/
+@media (max-width: 600px){
     .toggle-button{
         display: flex;
     }
     .nav-links{
-        width: 100%;
         display: none;
+        width: 100%;
     }
-    nav{
-        padding-bottom: 10px;
+    .nav{
         flex-direction: column;
         align-items: flex-start;
     }
-    .logo{
-        padding-top: 10px;
-    }
     .nav-links ul{
-        flex-direction: column
+        width: 100%;
+        flex-direction: column;
     }
     .nav-links li{
         text-align: center;
@@ -96,12 +92,8 @@
     .nav-links.active{
         display: flex;
     }
-    .block-sections div{
-        display: block;
-      width: 30%;
-    }
- }
- /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
+}
+/* END OF NAVBAR CODE */
 
  html, body{
     overflow-y: visible;
@@ -112,7 +104,7 @@
  .left {
      position: relative;
      width: 50%;
-     height: auto;
+     height: 100vh;
      float: left;
      text-align: center;
      padding-top: 4rem;
@@ -122,7 +114,7 @@
  .right {
      position: relative;
      width: 50%;
-     height: auto;
+     height: 100vh;
      float: left;
      text-align: center;
      padding-top: 4rem;
@@ -165,3 +157,11 @@
     background-color: #98bfed;
     transition: ease-in .2s;
  }
+ #footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #3162bd;
+    margin-top: 1rem;
+}

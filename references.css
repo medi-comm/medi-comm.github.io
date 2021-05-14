@@ -1,106 +1,99 @@
-/* START OF COPIED CODE FROM HOME PAGE*/
- 
+/* NAVBAR */
 *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    overflow:hidden;
- }
- .logo{
-    font-size: 40px!important;
-    padding-left: 30px;
-  font-family: 'Lora', serif;
-    padding-left: 30px;
-  font-family: 'Lora', serif;
- }
- .logo a{
-    text-decoration: none;
-    color: rgb(241, 240, 240);
- }
- li,li a{
-    text-decoration: none;
-    align-items: center;
-    font-size: 1.4rem;
-    color: rgb(241, 240, 240);
-    font-family: 'Roboto', sans-serif;
- }
- .nav-links li a {
-    display: block;
-    padding: 1rem;
- }
- .nav-links li{
-    font-size: 20px;
- }
- .nav-links ul{
-    list-style: none;
-    display: flex;
- }
-  
- nav{
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    background-color:#3162bd;
-    overflow: hidden;
-    padding: 13px;
- }
- .header{
-    padding-bottom: 5px;
- }
- .nav-links a:hover{
-    color:rgb(221, 180, 92);
-    transition: ease-in .2s;
- }
- .toggle-button{
-    position: absolute;
-    top:.75rem;
-    right: 1rem;
-    display:none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height:21px ;
- }
- .toggle-button .bar{
-    height:3px;
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
- }
- @media (max-width:800px){
-    .toggle-button{
-        display: flex;
-    }
-    .nav-links{
-        width: 100%;
-        display: none;
-    }
-    nav{
-        padding-bottom: 10px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .logo{
-        padding-top: 10px;
-    }
-    .nav-links ul{
-        flex-direction: column
-    }
-    .nav-links li{
-        text-align: center;
-    }
-    .nav-links li a{
-        padding: .5rem 1rem;
-    }
-    .nav-links.active{
-        display: flex;
-    }
-    .block-sections div{
-        display: block;
-      width: 30%;
-    }
- }
- /* END OF COPIED AND PASTED CODE FROM HOME PAGE*/
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   overflow:hidden;
+}
+.logo{
+   font-size: 40px!important;
+   padding-left: 30px;
+ font-family: 'Lora', serif;
+   padding-left: 30px;
+ font-family: 'Lora', serif;
+}
+.logo a{
+   text-decoration: none;
+   color: rgb(241, 240, 240);
+}
+
+li,li a{
+   text-decoration: none;
+   align-items: center;
+   font-size: 1.4rem;
+   color: rgb(241, 240, 240);
+   font-family: 'Roboto', sans-serif;
+}
+.nav-links ul{
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+.nav-links li{
+   list-style: none;
+}
+.nav-links li a{
+   text-decoration: none;
+   color: rgb(241, 240, 240);
+   padding: 1rem;
+   display: block;
+}
+.nav-links a:hover{
+   color:rgb(221, 180, 92);
+   transition: ease-in .2s; 
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:#3162bd;
+   padding: 13px;
+}
+/*hamburger menu formatting*/
+.toggle-button{
+   position: absolute;
+   top:.75rem;
+   right: 1rem;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 31px;
+   height: 21px;
+}
+.toggle-button .bar{
+   height: 3px;
+   width: 100%;
+   background-color: rgb(241, 240, 240);
+   border-radius: 10px;
+}
+/*media query*/
+@media (max-width: 600px){
+   .toggle-button{
+       display: flex;
+   }
+   .nav-links{
+       display: none;
+       width: 100%;
+   }
+   .nav{
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .nav-links ul{
+       width: 100%;
+       flex-direction: column;
+   }
+   .nav-links li{
+       text-align: center;
+   }
+   .nav-links li a{
+       padding: .5rem 1rem;
+   }
+   .nav-links.active{
+       display: flex;
+   }
+}
+/* END OF NAVBAR CODE */
 
 html, body{
    overflow-y: visible;
@@ -108,6 +101,7 @@ html, body{
 .links{
     margin-left: 5rem;
     margin-top: 2rem;
+    height: auto;
 }
 .links h1{
     font-family: 'Lora', serif;
